@@ -2,14 +2,15 @@
     font-family: "idroid";
     src:"./fonts/idroid.otf" format("otf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap');
+@charset "UTF-8";
 
 * {
     margin: 0;
-    font-family: 'idroid';
 }
 
 body {
-    background-color: #84E1AD;
+    background-color: #c5ebd6;
 }
 
 header {
@@ -30,11 +31,6 @@ header p {
     font-size: 18px;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    
-}
 
 .menu-header {
     align-content: flex-start;
@@ -67,5 +63,4 @@ footer {
     color: white;
     text-align: center;
     margin: 0;
-    
 }
