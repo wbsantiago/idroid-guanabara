@@ -44,6 +44,14 @@ header h1 {
     color: white;
 }
 
+main h2 {
+    font-family: var(--font-android);
+    color: var(--cor4);
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
 header p {
     color: white;
     font-size: 1.2em;
@@ -84,12 +92,36 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
+main p {
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    transition-duration: 500ms;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
 main img {
     width: 100%;
 }
 
 .img-bugdroid {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
