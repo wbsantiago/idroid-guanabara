@@ -46,6 +46,7 @@ header h1 {
     font-family: var(--font-destaque);
     margin-bottom: 20px;
     color: white;
+    font-weight: normal;
 }
 
 main h2 {
@@ -54,6 +55,7 @@ main h2 {
     font-size: 1.2em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
+    font-weight: normal;
 }
 
 header p {
@@ -61,7 +63,7 @@ header p {
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 20px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.35);
 }
 
@@ -72,7 +74,7 @@ header p {
 }
 
 .menu-header a {
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     weight: bold;
@@ -131,9 +133,28 @@ main img {
 }
 
 main h1 {
+    color: var(--cor5);
     font-family: var(--font-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+/* configuração para centralizar o video do youtube */
+.video {
+    background: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 56.6%;
 }
 
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+/* termina aqui */
 img {
     margin: auto;
     width: 100%;
